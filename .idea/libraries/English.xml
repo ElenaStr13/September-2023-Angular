@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="English">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/English/Eng-a1-lesson-4.zip!/" />
+      <root url="jar://$PROJECT_DIR$/English/Eng-a1-lesson-3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/English/Eng-a2-lesson-2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/English/Eng-a1-lesson-5.zip!/" />
+      <root url="jar://$PROJECT_DIR$/English/Eng-a2-lesson-1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/English/Eng-a1-lesson-5 (1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/English/Eng-a1-lesson-6.zip!/" />
+      <root url="jar://$PROJECT_DIR$/English/Eng-a1-lesson-2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

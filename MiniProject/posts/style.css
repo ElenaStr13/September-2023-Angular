@@ -1,0 +1,22 @@
+.btnPost {
+    padding: 5px;
+    width: 150px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.title {
+    width: 70%;
+}
+.wrapperPost {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid pink;
+    background-color: pink;
+}
