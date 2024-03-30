@@ -10,5 +10,5 @@ import {UsersComponent} from "./components/users/users.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-    title = 'sep2023Angular';
+    title = ' sep2023Angular';
 }
