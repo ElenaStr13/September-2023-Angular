@@ -1,8 +1,9 @@
-const API = 'https://jsonplaceholder.typicode.com'
+import {environment} from "../../environments/environment";
 
+const {API} = environment;
 const users = `${API}/users`
 const posts = `${API}/posts`
-const comments = '${API}/comments'
+
 
 const urls = {
   users: {
@@ -12,9 +13,6 @@ const urls = {
   posts: {
     base: posts,
     byId: (id: number): string => `${posts}/${id}`
-  },
-  comments: {
-    base: comments
   }
 }
 

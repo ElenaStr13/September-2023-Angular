@@ -3,9 +3,19 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AngularOkten2023": {
+    "moduleAngular": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-okten2023",
+            "outputPath": "dist/module-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -48,7 +58,13 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.development.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -57,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "AngularOkten2023:build:production"
+              "buildTarget": "moduleAngular:build:production"
             },
             "development": {
-              "buildTarget": "AngularOkten2023:build:development"
+              "buildTarget": "moduleAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "AngularOkten2023:build"
+            "buildTarget": "moduleAngular:build"
           }
         },
         "test": {
@@ -93,6 +109,6 @@
     }
   },
   "cli": {
-    "analytics": "ef6ce062-8d8b-4de2-8ff2-73f5387a8851"
+    "analytics": "6f685453-a439-42ab-afb5-de3221fb7d36"
   }
 }
