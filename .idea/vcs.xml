@@ -2,7 +2,17 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Angular/AngularOkten2023" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Angular/AngularOkten2023/angularModule" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Angular/angularModule" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HTML CSS/HTML_CSS_Okten" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Java script" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/React/january2024react" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/September2023-NodeJs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project-nest2024" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project-react-ts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project-redux2024" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react-ts" vcs="Git" />
   </component>
 </project>
